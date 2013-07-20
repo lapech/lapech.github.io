@@ -241,6 +241,12 @@ ul
     border-bottom-left-radius: 10px;
 }
 
+.description{
+    font-size: 120%;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
 .pull-center
 {
     text-align: center;
@@ -248,7 +254,7 @@ ul
 
 .line
 {
-    margin: 80px;
+    margin: 40px;
 }
 
 .quote
@@ -317,9 +323,13 @@ ul
 .portfolio .item p
 {
     line-height: normal;
-    margin: 5px 10px 40px 10px;
+    margin: 5px 10px 10px 10px;
     font-size: 16px;
     font-size: 1.6rem;
+}
+
+.portfolio .price{
+
 }
 
 /**
