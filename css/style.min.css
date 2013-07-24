@@ -32,12 +32,12 @@ h1, h2, h3
 
 a
 {
-    color: rgb(255, 125, 39);
+    color: rgb(159, 204, 171);
 }
 
 a:hover
 {
-    color: rgb(255, 125, 39);
+    color: rgb(159, 204, 171);
     text-decoration: none;
 }
 
@@ -61,11 +61,14 @@ ul
 {
     color: #fff;
     color: rgb(255, 125, 39);
+    display: block;
     line-height: 70px;
     font-weight: 400;
     font-size: 50px;
     font-family: 'Philosopher', sans-serif;
+    margin: 10px auto;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    width: 260px;
 }
 
 /**
@@ -100,12 +103,12 @@ ul
 
 #header .navbar:hover
 {
-    background-color: #888;
-    background-color: rgba(0, 0, 0, 0.8);
-        -moz-transition: all 600ms;
-        -webkit-transition: all 600ms;
-        -o-transition: all 600ms;
-    transition: all 600ms;
+    /*background-color: #fff;*/
+    /*background-color: rgba(255, 255, 255, 0.4);*/
+        /*-moz-transition: all 600ms;*/
+        /*-webkit-transition: all 600ms;*/
+        /*-o-transition: all 600ms;*/
+    /*transition: all 600ms;*/
 }
 
 #header .navbar-inner
@@ -122,6 +125,7 @@ ul
     box-shadow: none;
     background: none;
     filter: none;
+    text-align: center;
 }
 
 #header .navbar .brand
@@ -130,9 +134,16 @@ ul
     line-height: 80px;
 }
 
+#header .navbar .nav{
+    float: none;
+}
+
 #header .navbar .nav > li
 {
     line-height: normal;
+    float:none;
+    display:inline-block;
+    vertical-align: middle;
 }
 
 #header .navbar .nav > li > a
@@ -154,8 +165,8 @@ ul
         -webkit-transition: all 600ms;
         -o-transition: all 600ms;
     transition: all 600ms;
-    color: rgb(255, 125, 39);
-    border-bottom: solid rgb(255, 125, 39) 2px;
+    color: rgb(159, 204, 171);
+    border-bottom: solid rgb(159, 204, 171) 2px;
     background: none;
     filter: none;
 }
@@ -169,21 +180,20 @@ ul
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Philosopher', sans-serif;
     margin: 0 0 10px 0;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.35);
-    line-height: 90px;
+    line-height: 50px;
 }
 
 #intro h3
 {
-    color: rgb(255, 125, 39);
+    color: rgb(159, 204, 171);
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
-    font-size: 4rem;
+    font-size: 25px;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.35);
     line-height: normal;
 }
@@ -218,7 +228,7 @@ ul
 
 .header h3
 {
-    color: rgb(255, 125, 39);
+    color: rgb(159, 204, 171);
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
@@ -245,6 +255,10 @@ ul
     font-size: 120%;
     line-height: 25px;
     margin-bottom: 40px;
+}
+
+.description h1, .description h2{
+    margin: 35px 0;
 }
 
 .pull-center
@@ -498,7 +512,7 @@ ul
         padding-right: 20px;
     }
 
-    #header .navbar .nav.pull-right
+    #header .navbar .nav .pull-right
     {
         margin-right: 15px;
     }
