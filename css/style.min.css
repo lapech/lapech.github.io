@@ -315,6 +315,11 @@ ul
 /**
  * Portfolio
  */
+
+.portfolio{
+    margin: 40px 0;
+}
+
 .portfolio .item a
 {
     width: 100%;
