@@ -32,12 +32,12 @@ h1, h2, h3
 
 a
 {
-    color: rgb(159, 204, 171);
+    color: #51dbd6;
 }
 
 a:hover
 {
-    color: rgb(159, 204, 171);
+    color: #51dbd6;
     text-decoration: none;
 }
 
@@ -126,6 +126,7 @@ ul
     background: none;
     filter: none;
     text-align: center;
+    padding-right: 0;
 }
 
 #header .navbar .brand
@@ -136,6 +137,7 @@ ul
 
 #header .navbar .nav{
     float: none;
+    margin: 0;
 }
 
 #header .navbar .nav > li
@@ -165,8 +167,8 @@ ul
         -webkit-transition: all 600ms;
         -o-transition: all 600ms;
     transition: all 600ms;
-    color: rgb(159, 204, 171);
-    border-bottom: solid rgb(159, 204, 171) 2px;
+    color: #51dbd6;
+    border-bottom: solid #51dbd6 2px;
     background: none;
     filter: none;
 }
@@ -189,7 +191,7 @@ ul
 
 #intro h3
 {
-    color: rgb(159, 204, 171);
+    color: #51dbd6;
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
@@ -228,7 +230,7 @@ ul
 
 .header h3
 {
-    color: rgb(159, 204, 171);
+    color: #51dbd6;
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
