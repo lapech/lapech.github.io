@@ -257,6 +257,7 @@ ul
 .description{
     font-size: 120%;
     line-height: 25px;
+    margin-top: 40px;
 }
 
 .description h1, .description h2{
@@ -416,6 +417,14 @@ ul
     transition: all 600ms;
 }
 
+#vk_groups{
+    width: 100% !important;
+}
+
+#vk_groups iframe{
+    width: 100% !important;
+}
+
 /**
  * CSS Media Queries
  */
@@ -428,6 +437,9 @@ ul
 /* Normal desktop */
 @media (min-width: 980px) and (max-width: 1199px)
 {
+    #vk_groups{
+        width: 400px !important;
+    }
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -500,6 +512,10 @@ ul
         border: none;
         background: none;
         filter: none;
+    }
+
+    #vk_groups{
+        width: 400px;
     }
 
 }
