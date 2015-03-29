@@ -320,7 +320,11 @@ ul
  */
 
 .portfolio{
-    margin: 0;
+    margin-bottom: 0;
+}
+
+.portfolio .item{
+    margin-bottom: 20px
 }
 
 .portfolio .item a
